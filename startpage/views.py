@@ -20,7 +20,7 @@ class StartPageHandler():
    #PUT
    def update(self, request):
 
-   #DELETE
+   #DESTROY
    def delete(self, request):
 
 
