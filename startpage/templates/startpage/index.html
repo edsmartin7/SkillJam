@@ -1,1 +1,48 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>SkillJam:  Local Musicians Unite!</title>
+      <link rel="stylesheet" href="{% static 'css/profile.css' %}">
+   </head>
+   <body>
+      <div id="wrapper">
+         <div id="top">
+            <header>Local Musicians Unite</header>
+            <div id="personalsettings">
+               <ul>
+                  <li>Songs</li>
+                  <li>Videos</li>
+                  <li>Settings</li>
+                  <li>Messages</li>
+                  <li>Contact Info</li> <!-- FB, Twitter, etc -->
+                  <li>Share</li>
+               </ul>
+            </div>
+         </div>
+         <p id="leftprofile">
+         <!-- Insert profile pic from db -->
+         <dl>
+            <dt>Screen Name</dt>
+            <dt>Rating</dt>
+            <dt>Location</dt>
+            <dt>Bio</dt>
+            <dt>Band Website</dt>
+         </dl>    
+         </p>
+         <main id="content">
+            <!-- Display Videos(3) first then songs(tbd) -->
+            <p id="wall">
+               <h1>Videos and Songs here</h1>
+            </p>
+         </main>
+      </div>
+      
+   </body>
+
+   <script src='angular.min.js'></script>
+   <script src='script.js'></script>
+
+</html>
+
 

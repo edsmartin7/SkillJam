@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
-from geography.models import ZipCode
+#from geography.models import ZipCode
 
 import os
 
@@ -18,7 +18,8 @@ class Musician(models.Model):
    current_rating = models.IntegerField()
    rating_text = models.TextField()
    bio = models.TextField()
-   zip_code = models.ForeignKey(ZipCode)
+   #zip_code = models.ForeignKey(ZipCode)
+   zip_code = models.IntegerField()
    website = models.URLField()
    #profile pic
    #video mp4
