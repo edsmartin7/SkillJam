@@ -1,10 +1,8 @@
 
-h1 {
-   background-color: blue;
-}
-
 #top {
-   
+   background-color: #BA90D4;
+   color:white;  
+   font-weight: bold; 
 }
 
 #personalsettings {
@@ -12,10 +10,17 @@ h1 {
 }
 
 #leftprofile {
-
+   width: 50px;
+   border: 5px solid #BA90D4;
+   padding: 100px;
+   margin: 25px;
+   box-shadow: 5px 5px 5px 2px gray; 
+   /* position: fixed; */
 }
 
 #content {
+   color: #BA90D4;
    text-align: right;
+   margin: 25px;
 }
 
