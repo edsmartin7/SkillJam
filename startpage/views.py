@@ -25,6 +25,12 @@ def all_profile(request):
    #sort by rating, closest zip, instrument
    return HttpResponse("All profiles sorted by closest zip")
    
+def login_page(request):
+   #user_id = 
+   #user_pass = 
+   return render(request, 'startpage/login.html')
 
+def game_mode(request):
+   return HttpResponse("You are now in Game Mode")
 
 
