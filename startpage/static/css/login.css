@@ -12,7 +12,9 @@ body {
 }
 
 #entry{
-   background-color: white;
+   background-color: rgba(255,0,0,0);
+   color: white;
+   text-align: center;
    /*position: center;*/
    position: absolute;
    height: 200px;
